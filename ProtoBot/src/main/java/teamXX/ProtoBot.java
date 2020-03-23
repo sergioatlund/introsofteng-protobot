@@ -48,6 +48,7 @@ public class ProtoBot extends TeamRobot {
 		
 		while (true) {
 			setTurnRadarRight(Double.POSITIVE_INFINITY);
+			fire(1);
 			execute();
 		}
 	}
